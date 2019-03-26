@@ -1,0 +1,42 @@
+h1 
+{
+    color: aquamarine;
+    background: gray;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+    display: inline-block;
+    padding:5px;
+    margin:15px;
+}
+p
+{
+  border-left:6px solid lightblue;
+  padding: 25px 25px 25px 25px;
+  font-size: 30px;
+  margin:15px;
+  display: inline-block;
+  text-align: center;
+  color:white;
+  background:black;
+}
+
+a
+{
+  border:6px solid lightblue;
+  padding: 5px ;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer{
+  margin-top: 10%;
+  bottom: 0;
+}
+
+.foot{
+  width:100%;
+  background:black;
+  background-size: 100% 100%;
+  color:blueviolet;
+  size: 22px;
+}
