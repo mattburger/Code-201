@@ -4,17 +4,9 @@
 var questionArray = ["Does my name contains letter 'g'?(y/n)", 
 "My favourite basketball team is Celtics?(y/n)", "I am 23 years old ?(y/n)",
 "I prefer dogs over cats(y/n)?", "I love snow (y/n)? "];
-<<<<<<< HEAD
-//Correct Answers
-var answers = ["My names doesn't contain letter 'g'","My favourite team is Celtics","I am 27","I prefer dogs", "Don't like snow at all!"]
-//Welcome Screen
-alert("Welcome!\nPlease respond following question with 'y'/'n' or 'yes'/'no' as response ");
-=======
-
-var answers = ["My names doesn't contain letter 'g'","My favourite team is Celtics","I am 27 years","I prefer dogs", "Don't like snow at all!"]
 
 alert("Welcome! Question after this would require 'y'/'n' or 'yes'/'no' as response ");
->>>>>>> 5af08668a1d3aaaf3d3561888200bf3ecce23cb5
+
 var i = 0;
 var response = [];
 //to check if user's response is correct or false;
