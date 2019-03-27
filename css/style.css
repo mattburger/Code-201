@@ -1,12 +1,10 @@
       h1 
       {
-        color: aquamarine;
-        background: gray;
+        color: white;
         font-family:'Times New Roman', Times, serif;
-        font-size: 28px;
-        display: inline-block;
-        padding:5px;
-        margin:15px;
+        font-size: 35px;
+        text-align: center;
+        font-style:italic;
       }
 
       h2{
@@ -36,7 +34,7 @@
         margin: 30px;
         color:silver;
       }
-      
+      /* Style for Navigation bar */
       .navTop{
         border-bottom: 6px solid navajowhite;
       }
@@ -44,7 +42,7 @@
         margin-top: 10%;
         bottom: 0;
       }
-      
+      /* Style for footer */
       .foot{
         /* width:100%;
         background:black;
@@ -65,6 +63,8 @@
         background-repeat: no-repeat;
       }
 
+      
+      
 
 
     
