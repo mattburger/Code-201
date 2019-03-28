@@ -8,14 +8,17 @@ var questionArray = ['Does my name contains letter g?(y/n)',
   'I love snow (y/n)? ',
   'Please! enter a positive number',
   'Guess what foods I eat yesterday?'];
+
 //answer to question seven
 var answer=['egg','bacon','oatmeal','orange','cookie','steak','noodles','water'];
+
 //track all question with correct answers
 var correctAnswer =[];
+
 //index for for loop
 var i=0;
 //random number user should guess
-var ranNum = '53';
+var ranNum = 53;
 //number of tries user gets
 var count = 4;
 //to store how many correct answer user has given
@@ -88,6 +91,7 @@ function q6(){
   //user's input and user get 4 chances
   do{
     var guessedNum = prompt(questionArray[5]);
+    guessedNum = parseInt(guessedNum);
     if(ranNum>guessedNum)
     {
       count--;
@@ -132,7 +136,7 @@ function q7(){
       count--;
       alert('Sorry! You have ' + count + ' tries left');
     } 
-  }while(count !== 0);
+  }while(count !== 0 && answer.length > 0);
 }
 /* This function collects all the results from other functions
 and displays proper results to end user
@@ -153,8 +157,8 @@ function endUserOutPut(){
     userMessage = 'Sorry! I know you can do great next time!'
   }
   //end of game
-  alert('You have completed the game\nTotal Questions: 12\nCorrect Answers: ' + correctCount+'\n'+userMessage+'\nThank you!Hope you enjoyed');
-  document.getElementById('ul1').innerHTML = 'Total Questions Asked: 12';
+  alert('You have completed the game\nTotal Questions: 14\nCorrect Answers: ' + correctCount+'\n'+userMessage+'\nThank you!Hope you enjoyed');
+  document.getElementById('ul1').innerHTML = 'Total Questions Asked: 14';
   document.getElementById('ol1').innerHTML = 'Total Correct Response: '+ correctCount;
   var ans ='';
   if(correctAnswer.length>0){
